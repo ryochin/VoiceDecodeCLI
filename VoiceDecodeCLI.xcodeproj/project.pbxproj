@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A43E0B71910982A00E8E2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A43E0B61910982A00E8E2F5 /* Foundation.framework */; };
+		2A43E0BA1910982A00E8E2F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A43E0B91910982A00E8E2F5 /* main.m */; };
+		2A43E0C919109C9400E8E2F5 /* Decrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A43E0C819109C9400E8E2F5 /* Decrypt.m */; };
+		2A43E0CB1910A08F00E8E2F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A43E0CA1910A08F00E8E2F5 /* Security.framework */; };
+		2A43E0CD1910A0B700E8E2F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A43E0CC1910A0B700E8E2F5 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A43E0B11910982A00E8E2F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A43E0B31910982A00E8E2F5 /* voicedecode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = voicedecode; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A43E0B61910982A00E8E2F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A43E0B91910982A00E8E2F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A43E0BC1910982A00E8E2F5 /* VoiceDecodeCLI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceDecodeCLI-Prefix.pch"; sourceTree = "<group>"; };
+		2A43E0C719109C9400E8E2F5 /* Decrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decrypt.h; sourceTree = "<group>"; };
+		2A43E0C819109C9400E8E2F5 /* Decrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decrypt.m; sourceTree = "<group>"; };
+		2A43E0CA1910A08F00E8E2F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2A43E0CC1910A0B700E8E2F5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A43E0B01910982A00E8E2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A43E0CD1910A0B700E8E2F5 /* SystemConfiguration.framework in Frameworks */,
+				2A43E0CB1910A08F00E8E2F5 /* Security.framework in Frameworks */,
+				2A43E0B71910982A00E8E2F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A43E0AA1910982A00E8E2F5 = {
+			isa = PBXGroup;
+			children = (
+				2A43E0B81910982A00E8E2F5 /* VoiceDecodeCLI */,
+				2A43E0B51910982A00E8E2F5 /* Frameworks */,
+				2A43E0B41910982A00E8E2F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A43E0B41910982A00E8E2F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A43E0B31910982A00E8E2F5 /* voicedecode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A43E0B51910982A00E8E2F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A43E0CC1910A0B700E8E2F5 /* SystemConfiguration.framework */,
+				2A43E0CA1910A08F00E8E2F5 /* Security.framework */,
+				2A43E0B61910982A00E8E2F5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A43E0B81910982A00E8E2F5 /* VoiceDecodeCLI */ = {
+			isa = PBXGroup;
+			children = (
+				2A43E0B91910982A00E8E2F5 /* main.m */,
+				2A43E0C719109C9400E8E2F5 /* Decrypt.h */,
+				2A43E0C819109C9400E8E2F5 /* Decrypt.m */,
+				2A43E0BB1910982A00E8E2F5 /* Supporting Files */,
+			);
+			path = VoiceDecodeCLI;
+			sourceTree = "<group>";
+		};
+		2A43E0BB1910982A00E8E2F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A43E0BC1910982A00E8E2F5 /* VoiceDecodeCLI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A43E0B21910982A00E8E2F5 /* VoiceDecodeCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A43E0C11910982A00E8E2F5 /* Build configuration list for PBXNativeTarget "VoiceDecodeCLI" */;
+			buildPhases = (
+				2A43E0AF1910982A00E8E2F5 /* Sources */,
+				2A43E0B01910982A00E8E2F5 /* Frameworks */,
+				2A43E0B11910982A00E8E2F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceDecodeCLI;
+			productName = VoiceDecodeCLI;
+			productReference = 2A43E0B31910982A00E8E2F5 /* voicedecode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A43E0AB1910982A00E8E2F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "studio aquahill";
+			};
+			buildConfigurationList = 2A43E0AE1910982A00E8E2F5 /* Build configuration list for PBXProject "VoiceDecodeCLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A43E0AA1910982A00E8E2F5;
+			productRefGroup = 2A43E0B41910982A00E8E2F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A43E0B21910982A00E8E2F5 /* VoiceDecodeCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A43E0AF1910982A00E8E2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A43E0BA1910982A00E8E2F5 /* main.m in Sources */,
+				2A43E0C919109C9400E8E2F5 /* Decrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A43E0BF1910982A00E8E2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A43E0C01910982A00E8E2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A43E0C21910982A00E8E2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceDecodeCLI/VoiceDecodeCLI-Prefix.pch";
+				PRODUCT_NAME = voicedecode;
+			};
+			name = Debug;
+		};
+		2A43E0C31910982A00E8E2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceDecodeCLI/VoiceDecodeCLI-Prefix.pch";
+				PRODUCT_NAME = voicedecode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A43E0AE1910982A00E8E2F5 /* Build configuration list for PBXProject "VoiceDecodeCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A43E0BF1910982A00E8E2F5 /* Debug */,
+				2A43E0C01910982A00E8E2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A43E0C11910982A00E8E2F5 /* Build configuration list for PBXNativeTarget "VoiceDecodeCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A43E0C21910982A00E8E2F5 /* Debug */,
+				2A43E0C31910982A00E8E2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A43E0AB1910982A00E8E2F5 /* Project object */;
+}
